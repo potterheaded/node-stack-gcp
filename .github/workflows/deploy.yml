@@ -1,4 +1,4 @@
-name: express setup
+name: express deploy
 on: push
       
 jobs:
