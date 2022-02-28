@@ -1,17 +1,11 @@
-name: express gcp stack
+name: express gcp stack test app and badge
 description: This stack sets up a express app and deploys it to GCP.
 branding:
   icon: cloud
   color: blue
 
 inputs:
-  - name: workload_identity_provider
-    type: string
-    required: true
-  - name: service_account
-    type: string
-    required: true
-  - name: audience
+  - name: something
     type: string
     required: true
 
