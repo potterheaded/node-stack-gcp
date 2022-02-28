@@ -15,9 +15,7 @@ configs:
       description: An express app on google app engine.
       topics:
         - nodejs
-        - express
-        - gcp
-        - app-engine
+        - expressjs
 
   security:
     parameters:
