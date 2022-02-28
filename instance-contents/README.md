@@ -3,11 +3,6 @@ Congrats on deploying your express app on GCP 🎉 <br />
 Find below the details of your deployment and more <br />
 And once you are ready, update this README to show off your project
 
-## App hosted URL would be: ✈️
-You can readily find the URL where your repo hosts the application in the `Development` environment. Or manually you can find your website deployed at TBF.
-```TBF
-```
-
 ## How to setup local development server?
 ```
 # to start a local development environment, and view in browser.
