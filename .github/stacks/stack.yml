@@ -8,12 +8,15 @@ inputs:
   - name: workload_identity_provider
     type: string
     required: true
+    is-secret: true
   - name: service_account
     type: string
     required: true
+    is-secret: true
   - name: audience
     type: string
     required: true
+    is-secret: true
 
 configs:
   repo-metadata:
