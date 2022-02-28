@@ -20,9 +20,10 @@ configs:
     parameters:
       description: An express app on google app engine.
       topics:
-        - nodeJS
+        - nodejs
         - express
-        - app engine
+        - gcp
+        - app-engine
       secrets: 
       - name: workload_identity_provider
         value: ${{inputs.workload_identity_provider}}
