@@ -32,7 +32,7 @@ jobs:
        
   deploy-to-gcp:
     needs: stack-initialization
-    uses: octademo/deployment-workflows/.github/workflows/express_gcp_deploy.yml@main
+    uses: octademo/deployment-workflows/.github/workflows/deploy_to_gcp.yaml@main
     with:
       workload_identity_provider: ${{github.event.inputs.workload_identity_provider}}
       service_account: ${{github.event.inputs.service_account}}
