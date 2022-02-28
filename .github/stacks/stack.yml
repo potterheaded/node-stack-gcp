@@ -24,13 +24,6 @@ configs:
         - express
         - gcp
         - app-engine
-#       secrets: 
-#       - name: workload_identity_provider
-#         value: ${{inputs.workload_identity_provider}}
-#       - name: service_account
-#         value: ${{inputs.service_account}}
-#       - name: audience
-#         value: ${{inputs.audience}}
 
   security:
     parameters:
