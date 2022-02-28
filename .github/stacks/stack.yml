@@ -24,5 +24,8 @@ configs:
       vulnerability-alerts: true
       automated-security-fixes: true
 
+github-apps:
+  - slug: stale
+
 init:
  uses: stack-init.yml
