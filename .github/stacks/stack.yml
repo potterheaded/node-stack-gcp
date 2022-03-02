@@ -23,7 +23,7 @@ configs:
       automated-security-fixes: true
 
 github-apps:
-  - slug: stale
+  - slug: codefactor
 
 init:
  uses: stack-init.yml
