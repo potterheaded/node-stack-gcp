@@ -23,7 +23,7 @@ configs:
       automated-security-fixes: true
 
 github-apps:
-  - slug: codefactor-io
+  - slug: azure-oidc-uat
 
 init:
  uses: stack-init.yml
